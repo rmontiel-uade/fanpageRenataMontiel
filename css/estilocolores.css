@@ -1,0 +1,297 @@
+body {
+    background-color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    color: #000;
+    margin-bottom: 10px;
+    font-size: 36px;
+    letter-spacing: 1px;
+}
+
+h2 {
+    color: #666;
+    margin-top: 5px;
+    font-weight: normal;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 20px 0;
+    list-style: none;
+    gap: 15px;
+}
+
+nav ul li {
+    background-color: #D4AF37;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+}
+
+nav ul li:hover {
+    background-color: #b4912f;
+}
+
+.textoboton {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+.textoboton:hover {
+    color: white;
+}
+
+.contenedor {
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    gap: 20px;
+}
+
+.contenedorparrafos {
+    background-color: black;
+    color: white;
+    padding: 30px;
+    border-radius: 10px;
+    width: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.parrafotexto {
+    color: #000;
+    margin-bottom: 20px;
+    line-height: 1.6;
+    font-size: 16px;
+}
+
+.contenedorfoto {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    border-radius: 10px;
+}
+
+.fotopersonal {
+    width: 100%;
+    max-width: 350px;
+    height: auto;
+    border: 6px solid #D4AF37;
+    padding: 8px;
+    border-radius: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #f8f8f8;
+    font-size: 14px;
+    color: #555;
+}
+
+#imgpersonajes {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+}
+
+
+
+
+
+/* === PERSONAJES === */
+
+main {
+    background-color: #f0f0f0;
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+section {
+    background-color: black;
+    border-radius: 10px;
+    padding: 30px;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+section h3 {
+    color: #D4AF37;
+    font-size: 24px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+#imgpersonajes {
+    width: 200px;
+    border: 4px solid #D4AF37;
+    border-radius: 8px;
+    flex-shrink: 0;
+}
+
+section p {
+    flex: 1;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #D4AF37;
+    margin: 0;
+}
+
+
+
+/* === TEMPORADAS === */
+
+main {
+    background-color: #f0f0f0;
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+main ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    padding: 0;
+    list-style: none;
+    margin-bottom: 30px;
+}
+
+main ul li a {
+    background-color: #D4AF37;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+    display: inline-block;
+}
+
+main ul li a:hover {
+    background-color: #b4912f;
+    color: white;
+}
+
+h3 {
+    color: #D4AF37;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+iframe {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+main p {
+    max-width: 800px;
+    margin: 15px auto;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+    background-color: white;
+    padding: 20px;
+    border-left: 6px solid #D4AF37;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+/* Link de "más información" */
+main a[href*="wikipedia"] {
+    text-align: center;
+    display: block;
+    margin: 40px auto 0;
+    font-weight: bold;
+    text-decoration: none;
+    color: #D4AF37;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+main a[href*="wikipedia"]:hover {
+    color: #000;
+}
+
+/* === CONTACTO === */
+
+form {
+    background-color: #f0f0f0;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+form label {
+    font-weight: bold;
+    color: #000;
+    font-size: 16px;
+}
+
+form input[type="text"],
+form input[type="number"],
+form textarea {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border: 2px solid #D4AF37;
+    border-radius: 8px;
+    box-sizing: border-box;
+    resize: vertical;
+    background-color: white;
+}
+
+form textarea {
+    height: 150px;
+}
+
+form input[type="submit"] {
+    background-color: #D4AF37;
+    color: black;
+    border: none;
+    padding: 14px 30px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: fit-content;
+    align-self: center;
+}
+
+form input[type="submit"]:hover {
+    background-color: #b4912f;
+    color: white;
+}
